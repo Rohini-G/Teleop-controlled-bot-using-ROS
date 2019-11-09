@@ -11,7 +11,7 @@
           
 ## Circuit connection
 ### Explanation
-          Connect the motors and battery to the driver and then connect the input pins of the driver to the gpio pins of odroid .
+  Connect the motors and battery to the driver and then connect the input pins of the driver to the gpio pins of odroid .
           IN1 to wiring pi gpio 7
           IN2 to wiring pi gpio 0
           IN3 to wiring pi gpio 9
@@ -21,9 +21,9 @@
 ## Folder organisation
 
 ## Configuring Master and Slave
-          Install ROS and create catkin_ws and install dependensies of our ros version. For this use http://wiki.ros.org/ROS/Installation . You may install either Kinetic or Melodic , here we used melodic for master system and kinetic for odroid.
+   Install ROS and create catkin_ws and install dependensies of our ros version. For this use http://wiki.ros.org/ROS/Installation . You may install either Kinetic or Melodic , here we used melodic for master system and kinetic for odroid.
           
-          First choose a PC or laptop as the master and odroid is our slave (Both master and the slave should have ROS installed in it).
+   First choose a PC or laptop as the master and odroid is our slave (Both master and the slave should have ROS installed in it).
           In the master system, open the terminal, create a teleop_twist_keyboard package and then git clone the publisher code in it . To do so,run the following commands in the terminal
 ```sh
 cd catkin_ws
