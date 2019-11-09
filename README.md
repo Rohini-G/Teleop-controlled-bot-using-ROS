@@ -33,7 +33,7 @@ catkin_make
 The above commands are for sourcing our environment
 ```sh
 cd src
-mkdir teleop_twist_keyboard
+ROS_CREATE_PACKAGE teleop_twist_keyboard
 ```
 The above commands will create a package named teleop_twist_keyboard in the src folder.This package will contain a package.xml file and a Cmakelist.txt file in it.
 Now, git clone the publisher code in the teleop_twist_keyboard package
