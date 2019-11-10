@@ -1,6 +1,7 @@
 # Teleop-controlled-bot-using-ROS
   This project is intended to be a teaching and learning experience for those who want to get started with ROS. Here,we use master slave concept for controlling the bot; the commands are given from the master system's terminal and the slave(bot) moves accordingly.
-          
+ ![alt-text](https://github.com/Rohini-G/Teleop-controlled-bot-using-ROS/blob/master/isometric%20view.jpeg)
+ ![alt-text](https://github.com/Rohini-G/Teleop-controlled-bot-using-ROS/blob/master/top%20view.jpeg)
 ## Components Used
           Odroid XU4 and its shield (Shifter-Shield CON3 Header)
           6V 4.5A Leadacid battery (for odroid - connect it using a jack)
