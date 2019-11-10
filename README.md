@@ -112,7 +112,10 @@ python subscriber.py
 ```
 Now you can control the bot by teleop commands from master.
 NOTE: while giving commands in the master, the cursor should be placed in the terminal in which rosrun teleop_twist_keyboard teleop_twist_keyboard.py is running.
-![alt-text](https://github.com/Rohini-G/Teleop-controlled-bot-using-ROS/blob/master/video%20of%20moving%20bot.mp4)
+
+
+
+
 
 
          
