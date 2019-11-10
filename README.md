@@ -11,6 +11,7 @@
           Wifi adapter
           
 ## Circuit connection
+![alt-text](https://github.com/Rohini-G/Teleop-controlled-bot-using-ROS/blob/master/circuit.jpg)
 ### Explanation
   Connect the motors and battery to the driver and then connect the input pins of the driver to the gpio pins of odroid .
           IN1 to wiring pi gpio 7
@@ -20,6 +21,11 @@
           Ground of driver to gpio 39 (ground)
          
 ## Folder organisation
+For Publisher
+![alt-text](https://github.com/Rohini-G/Teleop-controlled-bot-using-ROS/blob/master/publisher.jpg)
+For Subscriber
+
+![alt-text](https://github.com/Rohini-G/Teleop-controlled-bot-using-ROS/blob/master/subcriber.jpg)
 
 ## Configuring Master and Slave
    Install ROS and create catkin_ws and install dependensies of our ros version. For this use http://wiki.ros.org/ROS/Installation . You may install either Kinetic or Melodic , here we used melodic for master system and kinetic for odroid.
