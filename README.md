@@ -21,9 +21,9 @@
           Ground of driver to gpio 39 (ground)
          
 ## Folder organisation
-For Publisher
+For Publisher (in master)
 ![alt-text](https://github.com/Rohini-G/Teleop-controlled-bot-using-ROS/blob/master/publisher.jpg)
-For Subscriber
+For Subscriber(in slave)
 
 ![alt-text](https://github.com/Rohini-G/Teleop-controlled-bot-using-ROS/blob/master/subcriber.jpg)
 
