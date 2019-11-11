@@ -15,10 +15,15 @@
 ### Explanation
   Connect the motors and battery to the driver and then connect the input pins of the driver to the gpio pins of odroid .
           IN1 to wiring pi gpio 7
+          
           IN2 to wiring pi gpio 0
+          
           IN3 to wiring pi gpio 9
+          
           IN4 to wiring pi gpio 8
+          
           Ground of driver to gpio 39 (ground)
+          
          
 ## Folder organisation
 For Publisher (in master)
