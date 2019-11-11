@@ -60,7 +60,7 @@ Now, the publisher code is ready in the master, its time for us to setup our sub
 In the slave (odroid), git clone the subscriber code in the src folder using the following commands
 ```sh
 cd catkin_ws/src
-git clone 
+git clone https://github.com/Rohini-G/Teleop-controlled-bot-using-ROS/blob/master/subscriberorg.py
 cd catkin_ws
 . ~/catkin_ws/devel/setup.bash
 catkin_make
