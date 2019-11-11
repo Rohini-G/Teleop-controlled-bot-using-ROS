@@ -46,7 +46,7 @@ The above commands will create a package named teleop_twist_keyboard in the src 
 Now, git clone the publisher code in the teleop_twist_keyboard package
 ```sh
 cd teleop_twist_keyboard
-git clone 
+git clone https://github.com/Rohini-G/Teleop-controlled-bot-using-ROS/tree/master/teleop_twist_keyboard
 ```
 While cloning, a tab may appear asking for replacement of package.xml file and Cmakelist.txt file; click on replace option.
 Now the publisher code - teleop_twist_keyboard.py would be inside the teleop_twist_keyboard package.Now again source and build the environment by running the following commands
