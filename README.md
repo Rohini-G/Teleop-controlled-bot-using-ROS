@@ -78,11 +78,11 @@ cd
 nano .bashrc
 ```
 You will find the following lines in the bashrc file
-
+```sh
 export ROS_MASTER_URI=http://X.X.X.X:1131
 export ROS_HOSTAGE_NAME=X.X.X.X
 export ROS_IP=Y.Y.Y.Y
-
+```
 edit it such that both X.X.X.X and Y.Y.Y.Y is master's IP ,then save and exit.
 Now in terminal,run
 ```sh
@@ -99,10 +99,12 @@ In slave,run
 ```sh
 nano .bashrc
 ```
+You will find the following lines in the bashrc file
+```sh
 export ROS_MASTER_URI=http://X.X.X.X:1131
 export ROS_HOSTAGE_NAME=Y.Y.Y.Y
 export ROS_IP=Y.Y.Y.Y
-
+```
 edit the above lines such that X.X.X.X is master's IP and Y.Y.Y.Y is slave's IP
 
 Now,run
