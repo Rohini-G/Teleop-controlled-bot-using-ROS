@@ -75,7 +75,7 @@ Now the slave is also ready.Its time for us to connect master and slave; for thi
 ```sh
 ifconfig
 ```
-This will give us information about the network interface; in this, the number following "inet addr:  " is the IP address; for example,it wil look something like this
+This will give us information about the network interface; in this, the number following "inet addr:  " is the IP address.
 
 Now,do the same in slave and find the slave's IP address.
 In master terminal,run
