@@ -118,6 +118,7 @@ cd catkin_ws/src
 python subscriber.py
 ```
 Now you can control the bot by teleop commands from master.
+
 NOTE: while giving commands in the master, the cursor should be placed in the terminal in which rosrun teleop_twist_keyboard teleop_twist_keyboard.py is running.
 
 
